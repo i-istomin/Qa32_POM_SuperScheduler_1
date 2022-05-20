@@ -8,11 +8,9 @@ import screens.SplashScreen;
 public class LaunchTest extends AppiumConfiguration {
 
     @Test//budet pustoy, bez koda
-    public void launchTest(){
-
-//sozdaem perviy ekran
-//        String version = new SplashScreen(driver).getCurrencyVersion();
-//        Assert.assertEquals(version,"0.0.3");
+    public void launchTest() {
+        String version = new SplashScreen(driver).getCurrencyVersion();//sozdaem perviy ekran
+        Assert.assertEquals(version, "0.0.3");
 
     }
 }

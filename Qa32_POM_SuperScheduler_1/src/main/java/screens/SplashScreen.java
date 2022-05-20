@@ -21,7 +21,7 @@ public class SplashScreen extends BaseScreen {
     }
 
     public LoginScreen checkVersion(String version){
-       // shouldHave(versionTextView,10,version);//check version
+       shouldHave(versionTextView,10,version);//check version
         return new LoginScreen(driver);
     }
 

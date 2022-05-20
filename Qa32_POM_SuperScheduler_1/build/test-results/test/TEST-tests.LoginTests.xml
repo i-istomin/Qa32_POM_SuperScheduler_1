@@ -1,85 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - Class tests.RegistrationTests</title>
-<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
-<link href="../css/style.css" rel="stylesheet" type="text/css"/>
-<script src="../js/report.js" type="text/javascript"></script>
-</head>
-<body>
-<div id="content">
-<h1>Class tests.RegistrationTests</h1>
-<div class="breadcrumbs">
-<a href="../index.html">all</a> &gt; 
-<a href="../packages/tests.html">tests</a> &gt; RegistrationTests</div>
-<div id="summary">
-<table>
-<tr>
-<td>
-<div class="summaryGroup">
-<table>
-<tr>
-<td>
-<div class="infoBox" id="tests">
-<div class="counter">2</div>
-<p>tests</p>
-</div>
-</td>
-<td>
-<div class="infoBox" id="failures">
-<div class="counter">1</div>
-<p>failures</p>
-</div>
-</td>
-<td>
-<div class="infoBox" id="ignored">
-<div class="counter">1</div>
-<p>ignored</p>
-</div>
-</td>
-<td>
-<div class="infoBox" id="duration">
-<div class="counter">1m3.14s</div>
-<p>duration</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</td>
-<td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
-<p>successful</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-<div id="tabs">
-<ul class="tabLinks">
-<li>
-<a href="#tab0">Failed tests</a>
-</li>
-<li>
-<a href="#tab1">Tests</a>
-</li>
-</ul>
-<div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="setUp"></a>
-<h3 class="failures">setUp</h3>
-<span class="code">
-<pre>org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="2" skipped="1" failures="1" errors="0" timestamp="2022-05-17T18:03:41" hostname="desktopirina" time="18.943">
+  <properties/>
+  <testcase name="setUp" classname="tests.LoginTests" time="18.906">
+    <failure message="org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'&#10;Driver info: driver.version: AppiumDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.&#10;    at getResponseForW3CError (/tmp/.mount_AppiumGFoJCi/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)&#10;    at asyncHandler (/tmp/.mount_AppiumGFoJCi/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at process._tickCallback (internal/process/next_tick.js:68:7)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'
 Driver info: driver.version: AppiumDriver
 remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.
-    at getResponseForW3CError (/tmp/.mount_AppiumwJUdAC/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
-    at asyncHandler (/tmp/.mount_AppiumwJUdAC/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
+    at getResponseForW3CError (/tmp/.mount_AppiumGFoJCi/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/tmp/.mount_AppiumGFoJCi/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
     at process._tickCallback (internal/process/next_tick.js:68:7)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'
@@ -96,7 +25,7 @@ Driver info: driver.version: AppiumDriver
 	at app//io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
 	at app//io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)
 	at app//io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:99)
-	at app//configuration.AppiumConfiguration.setUp(AppiumConfiguration.java:29)
+	at app//configuration.AppiumConfiguration.setUp(AppiumConfiguration.java:35)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -146,8 +75,8 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'
 Driver info: driver.version: AppiumDriver
 remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.
-    at getResponseForW3CError (/tmp/.mount_AppiumwJUdAC/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
-    at asyncHandler (/tmp/.mount_AppiumwJUdAC/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
+    at getResponseForW3CError (/tmp/.mount_AppiumGFoJCi/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/tmp/.mount_AppiumGFoJCi/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
     at process._tickCallback (internal/process/next_tick.js:68:7)
 	at java.base@11.0.15/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base@11.0.15/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -167,42 +96,11 @@ remote stacktrace: UnknownError: An unknown server-side error occurred while pro
 	at java.base@11.0.15/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
 	at app//org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
 	... 54 more
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
-<h2>Tests</h2>
-<table>
-<thead>
-<tr>
-<th>Test</th>
-<th>Duration</th>
-<th>Result</th>
-</tr>
-</thead>
-<tr>
-<td class="skipped">loginRegistrationSuccess</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
-</tr>
-<tr>
-<td class="failures">setUp</td>
-<td class="failures">1m3.14s</td>
-<td class="failures">failed</td>
-</tr>
-</table>
-</div>
-</div>
-<div id="footer">
-<p>
-<div>
-<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
-<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
-</label>
-</div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 17 May 2022, 14:42:27</p>
-</div>
-</div>
-</body>
-</html>
+</failure>
+  </testcase>
+  <testcase name="loginSuccessHomeWork2" classname="tests.LoginTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
