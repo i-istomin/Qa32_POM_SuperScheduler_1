@@ -1,0 +1,28 @@
+20:30:28.209 [Test worker] INFO  configuration.AppiumConfiguration - All tests start with device Nex
+20:30:28.212 [Test worker] INFO  configuration.AppiumConfiguration - All tests start with platform Android
+20:30:36.527 [Test worker] INFO  configuration.AppiumConfiguration - Start testloginSuccessHomeWork
+20:30:36.535 [Test worker] INFO  configuration.AppiumConfiguration - from login test:Auth(email=noa@gmail.com, password=Nnoa12345$)
+20:30:36.659 [Test worker] INFO  configuration.MyListener - Before find by--->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:30:36.805 [Test worker] INFO  configuration.MyListener - After find by--->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:30:36.806 [Test worker] INFO  configuration.MyListener - You have a problem--->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6d3f50cb-9751-4ad0-beb8-6660dc74dbd8
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+20:30:37.115 [Test worker] INFO  configuration.MyListener - screen with error by link--->Qa32_POM_SuperScheduler_1/src/test/screenshot/screen-1837.png
+20:30:37.123 [Test worker] INFO  configuration.AppiumConfiguration - Start testloginSuccessHomeWork
+20:30:37.124 [Test worker] INFO  configuration.AppiumConfiguration - from login test:Auth(email=wick@gmail.com, password=Ww12345$)
+20:30:37.132 [Test worker] INFO  configuration.MyListener - Before find by--->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:30:37.228 [Test worker] INFO  configuration.MyListener - After find by--->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+20:30:37.228 [Test worker] INFO  configuration.MyListener - You have a problem--->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'desktopirina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.14.0-1036-oem', java.version: '11.0.15'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6d3f50cb-9751-4ad0-beb8-6660dc74dbd8
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+20:30:37.521 [Test worker] INFO  configuration.MyListener - screen with error by link--->Qa32_POM_SuperScheduler_1/src/test/screenshot/screen-1837.png

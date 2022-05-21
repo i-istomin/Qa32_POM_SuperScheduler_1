@@ -24,7 +24,7 @@ public class HomeScreen extends BaseScreen {
 
 
     public boolean isFabPlusPresent() {
-        should(fabAdd, 20);
+        should(fabAdd, 30);
         return fabAdd.isDisplayed();
 
     }

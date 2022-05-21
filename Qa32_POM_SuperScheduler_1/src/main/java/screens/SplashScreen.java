@@ -11,17 +11,16 @@ public class SplashScreen extends BaseScreen {
         super(driver);
     }
 //nujno opisivat polia kot-e mi vidim
-    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/app_version_res']")
+@FindBy (xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/app_version_res']")
+MobileElement versionTextView;
     // @FindBy (xpath = "//*[@id='com.example.svetlana.scheduler:id/app_version_res']")
-    MobileElement versionTextView;//
 
-
-    public String getCurrencyVersion(){//doljni vernit text
+    public String getCurrencyVersion(){
         return versionTextView.getText();
     }
 
     public LoginScreen checkVersion(String version){
-       shouldHave(versionTextView,10,version);//check version
+        shouldHave(versionTextView,10,version);
         return new LoginScreen(driver);
     }
 

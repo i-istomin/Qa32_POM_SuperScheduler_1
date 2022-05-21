@@ -14,32 +14,34 @@ public class WizardScreen extends BaseScreen {
 
     @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip']")
     MobileElement skipButton;
-
     @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip']")
     List<MobileElement> list;
 
-    public HomeScreen skipWizard() {
-        should(skipButton, 15);
+    public HomeScreen skipWizard(){
+        should(skipButton,15);
         skipButton.click();
 
         return new HomeScreen(driver);
     }
 
-    public HomeScreen skipIfWizard() {
-        //should(skipButton, 25);
-        if (list.size() > 0) {
+    public HomeScreen skipIfWizard(){
+        //should(skipButton,25);
+        // if(driver.findElements(By.xpath("//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip']")).size()>0)
+        if(list.size()>0){
+
             skipButton.click();
         }
         return new HomeScreen(driver);
     }
 
-    public HomeScreen skipIfWizard2() {
+    public HomeScreen skipIfWizard2(){
 
         if(isDisplayedWithException(skipButton)){
 
             skipButton.click();
         }
         return new HomeScreen(driver);
+
     }
 
 
