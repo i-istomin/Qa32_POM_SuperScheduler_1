@@ -148,7 +148,7 @@ public class MyListener implements AppiumWebDriverEventListener {
         //mojno sdelat casting s pomoshiu  TakesScreenshot
         File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);//kajdiy raz zapisivaetsia noviy rezulatat v file. Kajdiy raz vitiraet proshliy raz
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
-        String path = "/home/i-istomin/TelRan/SYSTEMS/Qa32_POM_SuperScheduler_1/Qa32_POM_SuperScheduler_1/src/test/screenshots/screen-" + i + ".png";
+        String path = ("/home/i-istomin/TelRan/SYSTEMS/Qa32_POM_SuperScheduler_1/Qa32_POM_SuperScheduler_1/src/test/resources/screenshots/screen-" + i + ".png");
         logger.info("screen with error by link--->" + path);
 
 
